@@ -1,4 +1,4 @@
-# The PageFactory
+# The PageFactory Design Pattern
 
 In order to support the [PageObject](PageObjects.md) pattern, WebDriver's support library contains a factory class.
 
