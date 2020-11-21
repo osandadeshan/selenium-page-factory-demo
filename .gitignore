@@ -1,3 +1,5 @@
 /.idea
 /target
-/selenium-testng-page-factory-demo.iml
+/test-output
+/reports
+/selenium-page-factory.iml

@@ -1,10 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-
-<suite name="AllTestsSuite">
-    <test name="My First Selenium TestNG Page Factory Demo Test">
+<suite name="Regression Test Suite">
+    <listeners>
+        <listener class-name="util.ExtentReportListener"/>
+    </listeners>
+    <test name="Regression Test">
         <classes>
-            <class name="com.selenium.demo.test.login.LoginTest"/>
+            <class name="test.LoginTest" />
+            <class name="test.SearchTest" />
         </classes>
     </test>
 </suite>
